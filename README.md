@@ -1,8 +1,8 @@
-minesweeper
+MineSweeper
 ===========
-This is an implementation of [Minesweeper](http://en.wikipedia.org/wiki/Microsoft_Minesweeper). To use this, create a `Minesweeper` object and call `init` on it with the desired settings. For example usage, see `index.html`.
+This is an implementation of [Minesweeper](http://en.wikipedia.org/wiki/Microsoft_Minesweeper).
 
-differences from classic
+Differences from classic
 ------------------------
  * left-right click to reveal neighboring cells is now triggered with left click only
  * left click on a revealed cell with exactly as many neighbors as its number will automatically flag neighbors
