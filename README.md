@@ -8,6 +8,9 @@ Differences from classic
  * left click on a revealed cell with exactly as many neighbors as its number will automatically flag neighbors
  * cheat mode - click bottom left of game to reveal all mines
  
+## Program
+![Alt text](frontpage.png?raw=true "Optional Title")
+
 todo
 ----
  * add icons for mines, flags, and start button (win, lose, reset)
