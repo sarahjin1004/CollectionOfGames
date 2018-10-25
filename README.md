@@ -11,6 +11,10 @@ Differences from classic
 ## Program
 ![Alt text](frontpage.png?raw=true "Optional Title")
 ![Alt text](easy.png?raw=true "Optional Title")
+* added front page to access all levels of difficulty 
+* background photo implemented
+* background audio + click, bomb, success audio implemented
+
 
 todo
 ----
