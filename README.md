@@ -10,6 +10,7 @@ Differences from classic
  
 ## Program
 ![Alt text](frontpage.png?raw=true "Optional Title")
+![Alt text](easydemo.png?raw=true "Optional Title")
 
 todo
 ----
