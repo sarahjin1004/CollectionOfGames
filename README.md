@@ -10,11 +10,10 @@ Differences from classic
  
 ## Program
 ![Alt text](frontpage.png?raw=true "Optional Title")
-![Alt text](easydemo.png?raw=true "Optional Title")
+![Alt text](easy.png?raw=true "Optional Title")
 
 todo
 ----
- * add icons for mines, flags, and start button (win, lose, reset)
+ * remove emojis 
+ * instruction on the sign for keyboard / rules / how to restart, etc.
  * **hint system** - when stuck, point out rules that can be applied
- * **evil minesweeper** - for uncertain situations, always set the mines to be where the user clicked
- * **good minesweeper** - in a situation where no mines can be flagged absolutely, reveal a mine
