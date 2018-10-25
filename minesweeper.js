@@ -4,9 +4,11 @@
  * @param {String} containerId HTML ID for an empty element to contain this
  *     minesweeper game's display.
  */
+//var BUBBLE;
 var Minesweeper = function(containerId) {
   this.mainContainer = $(containerId);
-
+  //var BUBBLE = new Audio("pop.wav");
+  //this.BUBBLE = BUBBLE;
   this.MINE = '\uD83D\uDCA3'; // bomb emoji
   this.FLAG = '\uD83D\uDEA9'; // triangle flag emoji
   this.MAX_TIME = 999;
@@ -180,11 +182,15 @@ Minesweeper.prototype.initDisplay = function() {
 
       // left click
       td.click(function(event) {
+        var BUBBLE = new Audio("pop.wav");
+        BUBBLE.play();
         that.firstClickHandler(r, c);
       });
       
       // right click
       td.get(0).oncontextmenu = function(event) {
+        var bubble = new Audio("pop.wav");
+        bubble.play();
         event.preventDefault();
         that.toggleFlag(r, c);
       };
@@ -238,6 +244,7 @@ Minesweeper.prototype.initControlPanel = function() {
 
   // reset button styling and clicks
   resetButton.addClass('reset-button outset');
+  this.controlPanel.resetButton.html('RESET');
   resetButton.css('margin-left',
       (controlPanel.innerWidth() - resetButton.width()) / 2);
   resetButton.click(function(event) {
@@ -347,8 +354,12 @@ Minesweeper.prototype.revealSingleCell = function(row, col) {
 
   this.cellsRevealed++;
   if (cell.val == this.MINE) {
+    var bomb = new Audio("bomb.wav");
+    bomb.play();
     this.displayLoss();
   } else if (this.cellsRevealed == this.cellsToReveal) {
+    var tada = new Audio("tada.wav");
+    tada.play();
     this.displayWin();
   }
 };
