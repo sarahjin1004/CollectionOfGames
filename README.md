@@ -18,9 +18,8 @@ Differences from classic
 
 todo
 ----
- * remove emojis 
  * update the best time
- * add link buttons to frontpage, medium, hard
+ * decorate the page with seashells, fish, etc.
+ * make buttons prettier
  * add button to disable music or click sound
- * instruction on the sign for keyboard / rules / how to restart, etc.
  * **hint system** - when stuck, point out rules that can be applied
