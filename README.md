@@ -19,6 +19,7 @@ Differences from classic
 todo
 ----
  * remove emojis 
+ * update the best time
  * add link buttons to frontpage, medium, hard
  * add button to disable music or click sound
  * instruction on the sign for keyboard / rules / how to restart, etc.
