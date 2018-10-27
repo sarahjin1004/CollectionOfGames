@@ -1,6 +1,6 @@
 MineSweeper
 ===========
-This is an implementation of [Minesweeper](http://en.wikipedia.org/wiki/Microsoft_Minesweeper).
+This is an implementation of [Minesweeper](http://en.wikipedia.org/wiki/Microsoft_Minesweeper). <br>
 http://sarahsarcade.dynu.net/  <-- demo test
 
 Differences from classic
