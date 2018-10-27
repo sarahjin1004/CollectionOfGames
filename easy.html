@@ -6,10 +6,17 @@ body {
   background-image: url(./ocean4.png);
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed; /* or absolute */
+/*  position: fixed; 
   top: 20%;
-  left: 35%;
+  left: 35%; */
 }
+li{
+  color:black;
+  font: bold 20px monospace;
+}
+h2{
+  color:black;
+  font: bold 30px monospace;
 mine-count {
     margin: 0;
     top: 50%;
@@ -30,7 +37,21 @@ float: left;
       <p>Misclicks: <span id="misclick-counter">0</span></p>
     </div> -->
   </div>
-  <p style="font-size:60px"> Instructions </p>
+  <div id="instruction" style="position:absolute; left:5%; top:5%;">
+  <h2>Instructions </h2>
+  <u1>
+  <li>Left-click to open a block. </li>
+  <li>Right-click to flag a block. 
+  <dd><li> ctr+click works. </li></dd> </li>
+  <li>To clear the board, click RESET.</li>
+  <li>To restart after you die, click DEAD.</li>
+  <li>To restart after you win, click WIN.</li>
+  </u1>
+  <br><br><br><br><br><br><br>
+  <button onclick="location.href='medium.html';"> MEDIUM </button>
+   <button onclick="difficult.html"> DIFFICULT </button>
+   <button  onclick="location.href='frontpage.html';" > HOME </button>
+  </div>
   <script src='jquery-1.11.1.min.js'></script>
   <script src='minesweeper.js'></script>
   

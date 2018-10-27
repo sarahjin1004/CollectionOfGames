@@ -11,6 +11,7 @@ var Minesweeper = function(containerId) {
   //this.BUBBLE = BUBBLE;
   this.MINE = '\uD83D\uDCA3'; // bomb emoji
   this.FLAG = '\uD83D\uDEA9'; // triangle flag emoji
+  this.BEST_TIME = 0;
   this.MAX_TIME = 999;
   this.SETTINGS = {
     BEGINNER: {
@@ -464,7 +465,7 @@ Minesweeper.prototype.startTimer = function() {
  */
 Minesweeper.prototype.displayWin = function() {
   this.won = true;
-  this.controlPanel.resetButton.html('\uD83D\uDE0E');
+  this.controlPanel.resetButton.html('WIN');
   clearInterval(this.timeInterval);
 };
 
@@ -474,7 +475,7 @@ Minesweeper.prototype.displayWin = function() {
 Minesweeper.prototype.displayLoss = function() {
   if (this.lost) return;
   this.lost = true;
-  this.controlPanel.resetButton.html('\uD83D\uDE35'); // dizzy face emoji
+  this.controlPanel.resetButton.html('DEAD'); // dizzy face emoji
   clearInterval(this.timeInterval);
   for (var r = 0; r < this.field.length; r++) {
     for (var c = 0; c < this.field[0].length; c++) {
