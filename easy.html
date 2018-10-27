@@ -17,6 +17,13 @@ li{
 h2{
   color:black;
   font: bold 30px monospace;
+}
+h1{
+  left: 40%;
+  top: 10%;
+  color:black;
+  font: bold 35px monospace;
+}
 mine-count {
     margin: 0;
     top: 50%;
@@ -31,12 +38,13 @@ float: left;
 <body>
 <embed src="gamemusic.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" />
   <p id='mine-count'></p>
-  <div id="minesweeper-main" class="no-highlight">
+  <div style="top:10%; left:50%;" id="minesweeper-main" class="no-highlight">
     <div id="game-container"></div>
     <!-- <div id="help-container"> 
       <p>Misclicks: <span id="misclick-counter">0</span></p>
     </div> -->
   </div>
+  <h1 style="left:40%; top:3%;> Easy </h1>
   <div id="instruction" style="position:absolute; left:5%; top:5%;">
   <h2>Instructions </h2>
   <u1>
@@ -49,7 +57,7 @@ float: left;
   </u1>
   <br><br><br><br><br><br><br>
   <button onclick="location.href='medium.html';"> MEDIUM </button>
-   <button onclick="difficult.html"> DIFFICULT </button>
+   <button onclick="location.href='difficult.html'"> DIFFICULT </button>
    <button  onclick="location.href='frontpage.html';" > HOME </button>
   </div>
   <script src='jquery-1.11.1.min.js'></script>

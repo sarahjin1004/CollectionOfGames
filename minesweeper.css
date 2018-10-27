@@ -1,8 +1,9 @@
 #minesweeper-main {
   display: flex;
-position: fixed; /* or absolute */
-  top: 20%;
-  left: 50%;
+  position: fixed; /* or absolute */
+/*  top: 20%;
+  left: 50%;*/
+  zoom: 95%;
 }
 
 #game-container {

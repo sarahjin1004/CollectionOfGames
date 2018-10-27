@@ -1,16 +1,57 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="minesweeper.css">
+<style>
+body {
+  background-image: url(./ocean4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+/*  position: fixed;
+  top: 20%;
+  left: 35%; */
+}
+li{
+  color:black;
+  font: bold 20px monospace;
+}
+h2{
+  color:black;
+  font: bold 30px monospace;
+mine-count {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%
+}
+game-container {
+float: left;
+}
+</style>
 </head>
 <body>
+<embed src="bestfriend.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" />
   <p id='mine-count'></p>
-  <div id="minesweeper-main" class="no-highlight">
+  <div style="top:1%; left:40%;" id="minesweeper-main" class="no-highlight">
     <div id="game-container"></div>
-    <div id="help-container">
+    <!-- <div id="help-container">
       <p>Misclicks: <span id="misclick-counter">0</span></p>
-    </div>
+    </div> -->
   </div>
-
+  <div id="instruction" style="position:absolute; left:3%; top:5%;">
+  <h2>Instructions </h2>
+  <u1>
+  <li>Left-click to open a block. </li>
+  <li>Right-click to flag a block.
+  <dd><li> ctr+click works. </li></dd> </li>
+  <li>To clear the board, click RESET.</li>
+  <li>To restart after you die, click DEAD.</li>
+  <li>To restart after you win, click WIN.</li>
+  </u1>
+  <br><br><br><br><br><br><br>
+  <button onclick="location.href='easy.html';"> EASY </button>
+   <button onclick="location.href='difficult.html'"> DIFFICULT </button>
+   <button  onclick="location.href='frontpage.html';" > HOME </button>
+  </div>
   <script src='jquery-1.11.1.min.js'></script>
   <script src='minesweeper.js'></script>
 
