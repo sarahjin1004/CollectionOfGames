@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	position: fixed;
+   background: url(./frontbackground.jpg) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  // text-align: center;
+}
+h1 {
+    position: relative;
+    top: -10px;
+    left:80px;
+    //text-align: center;
+    color: black;
+    font: bold 80px Trebuchet MS;
+}
+p1 {
+    top: 19px;
+    left: 10%;
+    position: relative;
+    color: black;
+    //font-family: 'Nova Flat';font-size: 40px;
+    font: bold 30px monospace;
+}
+p2 {
+    top:19px;
+    left:15%;
+    position:relative;
+    color: black;
+    font: bold 30px monospace;
+}
+form {
+    text-align: center;
+    color:black;
+    font: bold 30px monospace;
+}
+img{
+    width:150px;
+    height:180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    top:330px;
+    left:90%;
+    position: relative;
+    color:black;
+    font: bold 30px monospace;
+}
+button{
+    top:350px;
+    left:110%;
+    position:relative;
+}
+</style>
+</head>
+<body>
+<embed src="bestfriend.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" />
+<!--<img style="top:330px;" src="./catmoving.gif">
+<h1>Welcome to </br>Cat Sweepers!</h1>
+<p1>Select difficulty:</p1> <br>-->
+<br>
+<input type="radio" name="l" value="Easy" id="easy" CHECKED><br><br><br>
+<input type="radio" name="l" value="Medium" id="med"> <br><br><br><br>
+<input type="radio" name="l" value="Difficult" id="hard"></p2><br>
+<button type="button" onclick="myFunction()"><img style="width:200px; height:130px"  src="./playbutton.png"></button>
+<script>
+function myFunction(){
+   if (document.getElementById("easy").checked)
+      window.location.href = "easy.html";
+   else if (document.getElementById("med").checked)
+      window.location.href = "medium.html";
+   else if (document.getElementById("hard").checked)
+      window.location.href = "difficult.html";
+   }
+</script>
+</body>
+</html>
+
