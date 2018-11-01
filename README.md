@@ -7,7 +7,7 @@ As of now, I have these games implemented:
 
  
 ## Snaps of my website: 
-![Alt text](frontpage.png?raw=true "Optional Title")
+![Alt text](frontpagedemo.png?raw=true "Optional Title")
 ![Alt text](catsweeperdemo.png?raw=true "Optional Title")
 ![Alt text](minesweeperdemo.png?raw=true "Optional Title")
 ![Alt text](difficult.png?raw=true "Optional Title")
