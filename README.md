@@ -5,7 +5,7 @@ You can check it out at: http://sarahsarcade.dynu.net/
  
 ## Snaps of my website: 
 ![Alt text](frontpage.png?raw=true "Optional Title")
-![Alt text](easy.png?raw=true "Optional Title")
-![Alt text](medium.png?raw=true "Optional Title")
+![Alt text](catsweeperdemo.png?raw=true "Optional Title")
+![Alt text](minesweeperdemo.png?raw=true "Optional Title")
 ![Alt text](difficult.png?raw=true "Optional Title")
 
