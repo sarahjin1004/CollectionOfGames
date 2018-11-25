@@ -12,4 +12,5 @@ As of now, I have these games implemented:
 ![Alt text](frontpagedemo.png?raw=true "Optional Title")
 ![Alt text](arcade/catsweepers/catsweeperdemo.png?raw=true "Optional Title")
 ![Alt text](arcade/minesweepers/minesweeperdemo.png?raw=true "Optional Title")
+![Alt text](cards/blackjack/demo.png?raw=true "Optional Title")
 
