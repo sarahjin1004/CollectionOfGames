@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Blackjack Game</title>
+<link href="style.css" rel="stylesheet">
+<script src="js/jquery.js"></script>
+<script src="js/blackjack.js"></script>
+<style>
+body{
+	background-image: url(./blackjacktable.jpg);
+}
+</style>
+</head>
+<body>
+        <div class='dealer-cards' style="position:fixed;top:8%;left:40%;">
+            
+            <div class='card card1'></div>
+            
+            <div class='card flipped card2'></div>
+            
+            <div class='new-cards'></div>
+            
+            <div class='clear'></div>
+            
+            <div id='dealerTotal' class='dealer-total'></div>
+            
+        </div>
+        
+        <div class='clear'></div>
+        
+        <div class='player-cards' style="position:fixed;top:70%;left:40%;">
+            
+            <div class='card card1'></div>
+            
+            <div class='card card2'></div>
+        	
+            <div class='new-cards'></div>
+            
+        	<div class='clear'></div>
+            
+            <div id='playerTotal' class='player-total'></div>
+            
+            
+        </div>
+        
+        <div class='buttons' style="position:fixed;top:40%;left:55%;">
+        	<div class='btn' id='hit'>Hit</div><br>
+        	<div class='btn' id='stand'>Stand</div><br>
+		<div class='btn' id='double'>Double</div>
+    	</div>
+    	<div class='betting-area' style="position:fixed;top:35%;left:43%;">
+    		<b>Your Bet</b><br />
+    		<div id='bet' class='bet money'style="position:fixed;top:47%;left:43%;font-size:50px;">0</div>
+    		
+    		<div style="position:fixed;top:56%;left:43%;">
+			<div class='btn' id='clr'>clear</div>
+        		<div class='btn' id='tens'>10</div>
+        		<div class='btn' id='fiftys'>50</div>
+			<div class='btn' id='hundred'>100</div>
+			<div class='btn' id='fivehundred'>500</div>
+                        <div class='btn' id='thousand'>1000</div>
+    		<div class='clear'></div>
+    	</div>
+    	<div style="font-size:20px;position:fixed;top:10%;left:5%;">
+    		<b>Available Funds</b><br />
+    		<span id='money' class='money' style="font-size:50px;position:fixed;top:15%;left:5%;">2500</span>
+    		<div class='clear'></div>
+    	</div> 
+        
+        <div class='clear'></div>
+        
+        <div id='message' class='message'style="position:fixed;top:50%;left:15%;"></div>   
+    </div>
+</body>
+</html> 
